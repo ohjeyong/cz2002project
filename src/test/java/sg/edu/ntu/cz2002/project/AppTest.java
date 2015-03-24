@@ -35,4 +35,9 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    public void testReturnHelloWolrd()
+    {
+    	assertEquals("Hello World!", App.returnHelloWorld());
+    }
 }

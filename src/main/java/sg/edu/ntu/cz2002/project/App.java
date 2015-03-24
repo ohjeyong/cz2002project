@@ -6,8 +6,12 @@ package sg.edu.ntu.cz2002.project;
  */
 public class App 
 {
+	public static String returnHelloWorld(){
+		return "Hello World!";
+	}
+	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( returnHelloWorld() );
     }
 }
